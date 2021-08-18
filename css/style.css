@@ -1,0 +1,130 @@
+html, body{
+    font-family: 'Ropa Sans', sans-serif;
+}
+header{
+    border-bottom:1px solid black;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+header h1{
+    margin: 0;
+    padding: 10px 0;
+    font-size: 35px;
+    width: 120px;
+
+}
+header h1 a{
+    text-decoration: none;
+    color: #777;
+}
+header h1 a span{
+    font-size: 12px;
+    float: right;
+    padding: 5px 0;
+}
+
+content .container{
+    display: inline-block;
+    
+
+}
+
+content .container .card{
+    background-color: #EEE;
+    width: 300px;
+    display: inline-block;
+}
+
+
+content .container .card img{
+    width:100%;
+}
+
+content .container .card .preco{
+    font-size: 25px;
+    padding: 5px;
+}
+
+content .container .card .tag_new{
+    
+    background-color: #51d275;
+    color: white;
+    float: right;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+
+content .container .card .tag_sale{
+    
+    background: #dc9730;
+    color: white;
+    float: right;
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+
+content .style_menu{
+    text-align: center;
+    margin-top: 80px;
+}
+
+content .style_menu ul{
+    padding: 0;
+    text-align: center;
+}
+content .style_menu ul li{
+    list-style: none;
+    
+}
+content .style_menu .industrial{
+    background-image: url(../images/industrial.png);
+    background-repeat: no-repeat;
+}
+
+content .style_menu .modern{
+    background-image: url(../images/moderno.png);
+    background-repeat: no-repeat;
+}
+
+content .style_menu .classic{
+    background-image: url(../images/classico.png);
+    background-size: contain;
+}
+
+
+content .style_menu ul li a{
+    background-color: rgba(204, 204, 204, 0.6);
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-size: 30px;
+    padding: 30px 0;
+    margin: 10px 0;
+    text-decoration: none;
+    height: 80px;
+    width: 800px;
+    text-align: center;  
+}
+
+footer{
+    height: 300px;
+    background-color: #333;
+    box-sizing: border-box;
+}
+
+footer .card_about{
+    color:white;
+    float: right;
+    padding: 50px 60px;
+    line-height: 30px;
+}
+
+footer .card_about a{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+}
+
